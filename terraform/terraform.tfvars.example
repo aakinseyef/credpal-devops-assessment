@@ -1,0 +1,5 @@
+aws_region   = "us-east-1"
+db_username  = "postgres"
+db_password  = "Sup3rS3cr3t!"
+domain_name  = "app.credpal.com"
+app_image    = "ghcr.io/your-org/credpal-app:latest"
