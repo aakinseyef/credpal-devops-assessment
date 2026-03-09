@@ -72,7 +72,6 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     environment:
       name: production
-      url: https://${{ secrets.DOMAIN_NAME }}
 
     steps:
       - name: Checkout code
